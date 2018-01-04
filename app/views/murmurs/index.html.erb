@@ -1,5 +1,19 @@
 <div class="container">
 
-<h2>TOP画面</h2>
+<div class = "title">
+  <div class = "notice">
+    <p><%= notice %></p>
+  </div>
+  <h1>つぶやき一覧</h1>
+  <table class = "table">
+  <% @murmurs.each do |murmur| %>
+    <tr>
+      <td><%= murmur.content %></td>
+      <td><%= link_to 'edit', edit_murmur_path(murmur.id), class: 'btn btn-info' %></td>
+      <td><%= link_to 'delete', murmur_path(murmur.id), method: :delete , class: 'btn btn-danger', data: { confirm: '本当に削除していいですか？' } %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>
 
 </div>
