@@ -24,7 +24,7 @@
 .about {
   background-color: white;
   margin: 0 auto;
-  padding-bottom:100px;
+  padding-bottom:10px;
 }
 
 .about h1{
@@ -36,6 +36,16 @@
 }
 
 
+.container{
+  padding-bottom:100px;
+}
+
+.container h4{
+  background: #b0dcfa; /*背景色*/
+  padding: 5%;/*文字周りの余白*
+  color: white;/*文字を白に*/
+  border-radius: 0.5em;/*角の丸み*/
+}
 
 footer {
   width: 100%;
