@@ -6,7 +6,7 @@
   position: absolute;
   color: white;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 5vw;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
@@ -26,6 +26,16 @@
   margin: 0 auto;
   padding-bottom:100px;
 }
+
+.about h1{
+  font-size: 2vw;
+}
+
+.about p{
+  font-size: 1vw;
+}
+
+
 
 footer {
   width: 100%;
